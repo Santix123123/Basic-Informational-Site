@@ -10,6 +10,20 @@ body {
     background-color: #f8f8f8;
     color: #333;
     line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    padding: 40px;
+    max-width: 100%;
+    margin: auto;
+    background: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 90%;
 }
 
 /* Header & Navigation */
@@ -49,26 +63,27 @@ nav ul li a:hover {
     color: #FFD700;
 }
 
-/* Main Content */
-main {
-    padding: 40px;
-    max-width: 1000px;
-    margin: auto;
-    background: white;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+/* Buttons */
+button, .btn {
+    display: inline-block;
+    background: #006400;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
 }
 
-h2 {
-    margin-bottom: 20px;
-    color: #006400;
-    font-size: 1.8rem;
+button:hover, .btn:hover {
+    background: #004d00;
+    transform: translateY(-2px);
 }
 
-p {
-    margin-bottom: 15px;
-    font-size: 1.1rem;
-    line-height: 1.6;
+button:active, .btn:active {
+    transform: translateY(0);
 }
 
 /* Footer */
@@ -77,8 +92,8 @@ footer {
     padding: 1.5rem;
     background: #006400;
     color: white;
-    margin-top: 30px;
     font-size: 1rem;
+    margin-top: auto;
 }
 
 /* Product Page */
@@ -143,10 +158,16 @@ footer {
     font-size: 1.2rem;
     cursor: pointer;
     transition: background 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .contact-form button:hover {
     background: #004d00;
+    transform: translateY(-2px);
+}
+
+.contact-form button:active {
+    transform: translateY(0);
 }
 
 /* 404 Page */
