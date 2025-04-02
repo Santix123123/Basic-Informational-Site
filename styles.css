@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif; /* Primary font */
 }
 
 body {
@@ -35,9 +35,12 @@ header {
 }
 
 header h1 {
-    font-size: 2rem;
+    font-family: 'Lora', serif; /* Elegant font for the title */
+    font-size: 2.5rem;
     font-weight: bold;
-    margin-bottom: 20px; /* Add space below the title */
+    margin-bottom: 20px;
+    color: #FFD700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 nav ul {
@@ -53,20 +56,21 @@ nav ul li {
 }
 
 nav ul li a {
+    font-family: 'Poppins', sans-serif; /* Clean font for navigation links */
     color: white;
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: bold;
-    padding: 10px 20px; /* Add padding to make them look like buttons */
-    border: 3px solid white; /* Thicker frame */
-    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px;
+    border: 3px solid white;
+    border-radius: 5px;
     transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 nav ul li a:hover {
     color: #FFD700;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
-    background-color: rgba(255, 255, 255, 0.1); /* Optional: slight background change */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 /* Buttons */
