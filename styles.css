@@ -37,13 +37,14 @@ header {
 header h1 {
     font-size: 2rem;
     font-weight: bold;
+    margin-bottom: 20px; /* Add space below the title */
 }
 
 nav ul {
     list-style: none;
     padding: 0;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 10px; /* Adjust spacing above the buttons if needed */
 }
 
 nav ul li {
@@ -56,11 +57,16 @@ nav ul li a {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: bold;
-    transition: color 0.3s ease-in-out;
+    padding: 10px 20px; /* Add padding to make them look like buttons */
+    border: 3px solid white; /* Thicker frame */
+    border-radius: 5px; /* Rounded corners */
+    transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 nav ul li a:hover {
     color: #FFD700;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+    background-color: rgba(255, 255, 255, 0.1); /* Optional: slight background change */
 }
 
 /* Buttons */
@@ -161,12 +167,12 @@ footer {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.contact-form button:hover {
+contact-form button:hover {
     background: #004d00;
     transform: translateY(-2px);
 }
 
-.contact-form button:active {
+contact-form button:active {
     transform: translateY(0);
 }
 
