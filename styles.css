@@ -82,6 +82,16 @@ nav ul li a:hover {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
+/* Header Image */
+.header-image {
+    width: 50%; /* Make the image smaller */
+    margin-top: 20px;
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Buttons */
 button, .btn {
     display: inline-block;
