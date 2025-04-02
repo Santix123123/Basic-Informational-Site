@@ -43,6 +43,15 @@ header h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+header h2 {
+    font-family: 'Lora', serif; /* Elegant font for the title */
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #FFD700; /* Yellow color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Cool shadow effect */
+}
+
 nav ul {
     list-style: none;
     padding: 0;
