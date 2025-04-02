@@ -53,6 +53,5 @@ server.listen(PORT, () => {
     console.log(`Server running at http://localhost:${PORT}`);
 });
 
-// Add this to the <head> section
 const fontLink = `<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Lora:wght@400;700&display=swap" rel="stylesheet">`;
 fs.writeFileSync(path.join(__dirname, 'head.html'), fontLink);
