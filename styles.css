@@ -1,0 +1,174 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header & Navigation */
+header {
+    background: #006400;
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #FFD700;
+}
+
+/* Main Content */
+main {
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #006400;
+    font-size: 1.8rem;
+}
+
+p {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background: #006400;
+    color: white;
+    margin-top: 30px;
+    font-size: 1rem;
+}
+
+/* Product Page */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.product-card {
+    background: #fff;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.product-card h3 {
+    margin-top: 10px;
+    font-size: 1.4rem;
+    color: #006400;
+}
+
+.product-card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Contact Page */
+.contact-info p {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    background: #006400;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact-form button:hover {
+    background: #004d00;
+}
+
+/* 404 Page */
+.error-page {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.error-page h2 {
+    color: red;
+    font-size: 2rem;
+}
+
+.error-page a {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #006400;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.error-page a:hover {
+    text-decoration: underline;
+}
