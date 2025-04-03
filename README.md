@@ -7,13 +7,13 @@ Welcome to the **Mulligan Golf Store** website! This project is a professional i
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page Screenshot](images/screenshots/home-page.png)
+![Home Page Screenshot](/home/vboxuser/Desktop/Screenshot_2025-04-03_23-55-29.png)
 
 ### About Page
-![About Page Screenshot](images/screenshots/about-page.png)
+![About Page Screenshot](/home/vboxuser/Desktop/Screenshot_2025-04-03_23-57-49.png)
 
 ### Contact Page
-![Contact Page Screenshot](images/screenshots/contact-page.png)
+![Contact Page Screenshot](/home/vboxuser/Desktop/Screenshot_2025-04-03_23-58-43.png)
 
 ---
 
