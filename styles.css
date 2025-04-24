@@ -326,10 +326,11 @@ footer {
 }
 
 .hero-services h3 {
-    font-size: 2rem; /* Slightly smaller font size for the subheading */
-    margin-top: 40px;
+    font-size: 2.5rem; /* Match the font size of the main heading */
     margin-bottom: 20px;
-    color: #333; /* Darker text color */
+    color: #006400; /* Match the green color */
+    font-family: 'Lora', serif; /* Match the elegant font */
+    font-weight: bold; /* Ensure the font weight matches */
 }
 
 .hero-services p {
