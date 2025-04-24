@@ -85,7 +85,7 @@ nav ul li a:hover {
 
 /* Header Image */
 .header-image {
-    width: 50%; /* Make the image half its original size */
+    width: 40%; /* Reduce the size slightly (was 50%) */
     display: block;
     margin: 20px auto; /* Center the image */
     border-radius: 8px; /* Optional: Add rounded corners */
