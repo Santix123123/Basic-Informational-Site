@@ -74,7 +74,7 @@
         <!-- Contact Form Section -->
         <section class="contact-form-section">
             <h2>Contact Us</h2>
-            <form action="success.html" method="get" class="contact-form">
+            <form onsubmit="handleFormSubmit(event)" class="contact-form">
                 <input type="text" name="name" placeholder="Your Name" required>
                 <input type="email" name="email" placeholder="Your Email" required>
                 <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
@@ -85,5 +85,13 @@
     <footer>
         <p>&copy; 2025 Mulligan Golf Store. All rights reserved.</p>
     </footer>
+
+    <script>
+        function handleFormSubmit(event) {
+            event.preventDefault(); // Prevent the default form submission
+            alert('Form submitted successfully!');
+            window.location.href = 'index.html'; // Redirect to the home page
+        }
+    </script>
 </body>
 </html>

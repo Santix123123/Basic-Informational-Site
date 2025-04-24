@@ -7,7 +7,6 @@ const server = http.createServer((req, res) => {
     if (filePath === './') filePath = './index.html';
     if (filePath === './about') filePath = './about.html';
     if (filePath === './contact-me') filePath = './contact-me.html';
-    if (filePath === './success.html') filePath = './success.html'; // Handle success page
 
     const extname = path.extname(filePath);
     let contentType = 'text/html';

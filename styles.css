@@ -15,17 +15,15 @@ body {
     flex-direction: column;
 }
 
-/* Center the Hero Section */
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Full viewport height */
-    margin: 0;
-}
-
-.hero {
-    text-align: center;
+    flex: 1;
+    padding: 40px;
+    max-width: 100%;
+    margin: auto;
+    background: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 90%;
 }
 
 /* Header & Navigation */
@@ -222,19 +220,4 @@ footer {
 
 .error-page a:hover {
     text-decoration: underline;
-}
-
-/* Hide navigation buttons for success.html */
-body.success-page header nav {
-    display: none;
-}
-
-/* Center the content for success.html */
-body.success-page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Full viewport height */
-    margin: 0;
-    background-color: #f0f8ff;
 }
