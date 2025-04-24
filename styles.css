@@ -293,12 +293,16 @@ footer {
 }
 
 .services ul {
-    list-style: disc; /* Restore bullet points */
-    padding-left: 40px; /* Add some padding to align the bullets */
-    font-size: 1.2rem; /* Keep the font size slightly larger */
-    color: #333; /* Optional: Add a darker text color */
+    list-style: disc; /* Keep bullet points */
+    padding-left: 0; /* Remove default padding */
+    text-align: center; /* Center-align the list */
+    margin: 20px auto; /* Center the list container */
+    max-width: 600px; /* Limit the width of the list */
 }
 
 .services ul li {
     margin-bottom: 10px; /* Add spacing between list items */
+    display: inline-block; /* Make list items inline */
+    text-align: left; /* Align text within each item */
+    width: 100%; /* Ensure items span the full width */
 }
