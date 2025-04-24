@@ -627,7 +627,7 @@ footer {
 }
 
 .map-section {
-    background: linear-gradient(135deg, #f0f8ff, #e6f7ff);
+    background: #dfffe0; /* Light green background */
     padding: 40px 20px;
     text-align: center;
     border-radius: 10px;
@@ -642,7 +642,7 @@ footer {
 
 .map-heading {
     font-size: 2rem;
-    color: #004080;
+    color: #006400; /* Dark green color */
     margin-bottom: 10px;
     font-weight: bold;
 }
