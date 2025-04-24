@@ -7,6 +7,7 @@ const server = http.createServer((req, res) => {
     if (filePath === './') filePath = './index.html';
     if (filePath === './about') filePath = './about.html';
     if (filePath === './contact-me') filePath = './contact-me.html';
+    if (filePath === './success.html') filePath = './success.html'; // Handle success page
 
     const extname = path.extname(filePath);
     let contentType = 'text/html';
@@ -32,13 +33,13 @@ const server = http.createServer((req, res) => {
 
     fs.readFile(path.join(__dirname, filePath), (err, content) => {
         if (err) {
-if (err.code === 'ENOENT') {
-            fs.readFile(path.join(__dirname, '404.html'), (err404, content404) => {
-                res.writeHead(404, { 'Content-Type': 'text/html' });
-                res.end(content404, 'utf8');
-            });
-        } else {
-res.writeHead(500);
+            if (err.code === 'ENOENT') {
+                fs.readFile(path.join(__dirname, '404.html'), (err404, content404) => {
+                    res.writeHead(404, { 'Content-Type': 'text/html' });
+                    res.end(content404, 'utf8');
+                });
+            } else {
+                res.writeHead(500);
                 res.end(`Server Error: ${err.code}`);
             }
         } else {
