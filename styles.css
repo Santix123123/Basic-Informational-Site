@@ -184,6 +184,11 @@ footer {
     transform: translateY(-2px); /* Slight lift effect */
 }
 
+/* Adjust margin-top for the first product card */
+.product-grid .product-card:first-child {
+    margin-top: 50px; /* Add extra spacing above the first product card */
+}
+
 /* Contact Page */
 .contact-info p {
     font-weight: bold;
