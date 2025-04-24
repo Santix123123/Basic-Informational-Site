@@ -295,7 +295,7 @@ footer {
 .services ul {
     list-style: disc; /* Restore bullet points */
     padding-left: 40px; /* Add padding for bullet alignment */
-    text-align: left; /* Align the list items to the left */
+    text-align: center; /* Align the list items to the left */
     margin: 20px auto; /* Center the list container */
     max-width: 600px; /* Limit the width of the list */
 }
