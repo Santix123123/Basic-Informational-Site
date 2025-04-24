@@ -341,17 +341,15 @@ footer {
 
 .hero-services ul {
     list-style: disc; /* Keep bullet points */
-    padding-left: 0; /* Remove default padding */
-    text-align: center; /* Center-align the list */
+    padding-left: 40px; /* Add padding for bullet alignment */
+    text-align: center; /* Center-align the list container */
     margin: 20px auto; /* Center the list container */
     max-width: 600px; /* Limit the width of the list */
 }
 
 .hero-services ul li {
     margin-bottom: 10px; /* Add spacing between list items */
-    display: inline-block; /* Make list items inline */
-    text-align: center; /* Center-align text within each item */
-    width: auto; /* Ensure items don't span the full width */
+    text-align: left; /* Align text within each item */
 }
 
 .hero-services a.btn {
