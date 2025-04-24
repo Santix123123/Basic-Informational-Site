@@ -48,7 +48,7 @@ header h2 {
     font-size: 4rem; /* Double the font size */
     font-weight: bold;
     margin-bottom: 20px;
-    color: #006400; /* Optional: Add a green color */
+    color: #FFD700; /* Golden yellow color */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Cool shadow effect */
     text-align: center;
 }
