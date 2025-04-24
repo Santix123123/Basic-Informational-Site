@@ -20,6 +20,23 @@
         </nav>
     </header>
     <main>
+        <!-- Filter and Sort Section -->
+        <section id="filter-sort">
+            <label for="filter">Filter by:</label>
+            <select id="filter">
+                <option value="all">All</option>
+                <option value="clubs">Clubs</option>
+                <option value="bags">Bags</option>
+                <option value="balls">Balls</option>
+            </select>
+
+            <label for="sort">Sort by:</label>
+            <select id="sort">
+                <option value="name">Name</option>
+                <option value="price">Price</option>
+            </select>
+        </section>
+
         <section id="products" class="products">
             <div id="product-grid" class="product-grid">
                 <!-- Products will be dynamically loaded here -->

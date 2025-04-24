@@ -7,6 +7,7 @@ const server = http.createServer((req, res) => {
     if (filePath === './') filePath = './index.html';
     if (filePath === './about') filePath = './about.html';
     if (filePath === './contact-me') filePath = './contact-me.html';
+    if (filePath === './cart') filePath = './cart.html';
 
     const extname = path.extname(filePath);
     let contentType = 'text/html';
