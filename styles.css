@@ -221,3 +221,10 @@ footer {
 .error-page a:hover {
     text-decoration: underline;
 }
+
+/* Center-align the Hero Section */
+.hero {
+    text-align: center; /* Center-align the text */
+    margin: 0 auto; /* Center the section horizontally */
+    padding: 40px 20px; /* Add some padding for spacing */
+}
