@@ -21,11 +21,19 @@ document.addEventListener('DOMContentLoaded', () => {
         cartTotalContainer.textContent = `Total: $${total}`;
     }
 
+    function updateCartCount() {
+        const cart = JSON.parse(localStorage.getItem('cart')) || [];
+        const cartCount = document.getElementById('cart-count');
+        cartCount.textContent = cart.length;
+    }
+
     checkoutButton.addEventListener('click', () => {
         alert('Checkout successful!');
         localStorage.removeItem('cart');
         renderCart();
+        updateCartCount();
     });
 
     renderCart();
+    updateCartCount();
 });

@@ -38,13 +38,23 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    function updateCartCount() {
+        const cart = JSON.parse(localStorage.getItem('cart')) || [];
+        const cartCount = document.getElementById('cart-count');
+        cartCount.textContent = cart.length;
+    }
+
     function addToCart(productId) {
         const product = products.find(p => p.id === productId);
         let cart = JSON.parse(localStorage.getItem('cart')) || [];
         cart.push(product);
         localStorage.setItem('cart', JSON.stringify(cart));
         alert('Product added to cart!');
+        updateCartCount();
     }
+
+    // Update cart count on page load
+    updateCartCount();
 
     filterSelect.addEventListener('change', () => {
         const filterValue = filterSelect.value;
