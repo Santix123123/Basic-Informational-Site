@@ -126,10 +126,14 @@ footer {
 
 /* Product Page */
 .product-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    margin-top: 30px;
+    display: flex; /* Use flexbox for alignment */
+    flex-wrap: wrap; /* Allow wrapping of items */
+    justify-content: center; /* Center all items horizontally */
+    gap: 20px; /* Add spacing between product cards */
+}
+
+.product-grid .product-card:first-child {
+    margin: 0 auto; /* Center the first product card */
 }
 
 .product-card {
