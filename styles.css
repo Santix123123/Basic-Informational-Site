@@ -487,3 +487,80 @@ footer {
 .social-links img:hover {
     transform: scale(1.1);
 }
+
+/* About Us Page */
+.about-section {
+    background-color: #f9f9f9; /* Light background for sections */
+    padding: 40px 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 800px;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    color: #006400; /* Green color for headings */
+    font-family: 'Lora', serif;
+    margin-bottom: 20px;
+}
+
+.about-section p, .about-section ul {
+    font-size: 1.2rem;
+    color: #333; /* Darker text color */
+    line-height: 1.6;
+}
+
+.about-section ul {
+    list-style: disc;
+    padding-left: 40px;
+    text-align: left;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.about-section.highlight {
+    background-color: #006400; /* Green background for highlighted section */
+    color: white; /* White text for contrast */
+}
+
+.about-section.highlight ul {
+    color: white; /* Ensure list items are white */
+}
+
+.about-cta {
+    background: linear-gradient(to right, #006400, #004d00); /* Gradient background */
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin: 40px auto;
+    max-width: 800px;
+}
+
+.about-cta h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'Lora', serif;
+}
+
+.about-cta p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.about-cta .btn {
+    background-color: #FFD700;
+    color: #006400;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.about-cta .btn:hover {
+    background-color: #e6c200;
+    transform: translateY(-2px);
+}
