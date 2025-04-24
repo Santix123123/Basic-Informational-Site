@@ -275,6 +275,7 @@ footer {
     text-align: center; /* Center-align the text */
     margin: 0 auto; /* Center the section horizontally */
     padding: 40px 20px; /* Add some padding for spacing */
+    margin-bottom: 50px; /* Add spacing below the Hero Section */
 }
 
 /* Center-align the Services Section */
@@ -282,6 +283,7 @@ footer {
     text-align: center; /* Center-align the text */
     margin: 0 auto; /* Center the section horizontally */
     padding: 40px 20px; /* Add some padding for spacing */
+    margin-top: 50px; /* Add spacing above the Services Section */
 }
 
 .services h2 {
