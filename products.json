@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Pro Golf Club",
+        "description": "Experience precision and power with our top-rated golf clubs.",
+        "image": "images/golf-club.jpg"
+    },
+    {
+        "name": "Deluxe Golf Bag",
+        "description": "Carry your gear in style with our durable and spacious golf bags.",
+        "image": "images/golf-bag.jpg"
+    },
+    {
+        "name": "Premium Golf Balls",
+        "description": "Achieve maximum distance and control with our premium golf balls.",
+        "image": "images/golf-ball.jpg"
+    }
+]

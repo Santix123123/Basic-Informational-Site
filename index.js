@@ -19,7 +19,7 @@ const server = http.createServer((req, res) => {
         case '.js':
             contentType = 'text/javascript';
             break;
-        case '.json':
+        case '.json': // Added support for JSON files
             contentType = 'application/json';
             break;
         case '.png':

@@ -83,6 +83,13 @@ nav ul li a:hover {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
+/* Active Navigation Link */
+nav ul li a.active {
+    background-color: #FFD700;
+    color: #006400;
+    border-color: #FFD700;
+}
+
 /* Header Image */
 .header-image {
     width: 40%; /* Reduce the size slightly (was 50%) */
@@ -197,6 +204,15 @@ footer {
 /* Adjust margin-top for the third product card */
 .product-grid .product-card:nth-child(3) {
     margin-top: 20px; /* Add extra spacing above the third product card */
+}
+
+/* Product Grid */
+#product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    margin-top: 40px;
 }
 
 /* Contact Page */
@@ -411,4 +427,63 @@ footer {
 .hero-services a.btn:hover {
     background-color: #004d00; /* Darker green on hover */
     transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #006400, #004d00);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'Lora', serif;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    background-color: #FFD700;
+    color: #006400;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.hero .btn:hover {
+    background-color: #e6c200;
+    transform: translateY(-2px);
+}
+
+/* Social Media Links */
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.social-links img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
 }
