@@ -228,3 +228,27 @@ footer {
     margin: 0 auto; /* Center the section horizontally */
     padding: 40px 20px; /* Add some padding for spacing */
 }
+
+/* Center-align the Services Section */
+.services {
+    text-align: center; /* Center-align the text */
+    margin: 0 auto; /* Center the section horizontally */
+    padding: 40px 20px; /* Add some padding for spacing */
+}
+
+.services h2 {
+    font-size: 2.5rem; /* Increase the font size of the heading */
+    margin-bottom: 20px;
+    color: #006400; /* Optional: Add a green color */
+}
+
+.services ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    font-size: 1.2rem; /* Increase the font size of the list items */
+    color: #333; /* Optional: Add a darker text color */
+}
+
+.services ul li {
+    margin-bottom: 10px; /* Add spacing between list items */
+}
