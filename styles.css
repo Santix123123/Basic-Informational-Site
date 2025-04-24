@@ -16,10 +16,13 @@ body {
 }
 
 main {
-    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
     padding: 40px;
     max-width: 100%;
-    margin: auto;
     background: white;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -239,11 +242,11 @@ body.success-page {
 
 /* Center the Hero Section */
 .hero {
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
     height: 100vh; /* Full viewport height */
     margin: 0; /* Remove default margins */
     background-color: #f0f8ff; /* Optional: Add a light background color */
