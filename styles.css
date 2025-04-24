@@ -564,3 +564,37 @@ footer {
     background-color: #e6c200;
     transform: translateY(-2px);
 }
+
+/* Message Section */
+.message-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 600px;
+}
+
+.message-section h2 {
+    font-size: 2rem;
+    color: #006400; /* Green color for success message */
+    margin-bottom: 20px;
+}
+
+.message-section a {
+    font-size: 1.2rem;
+    color: #006400;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.message-section a:hover {
+    color: #004d00; /* Darker green on hover */
+    text-decoration: underline;
+}
