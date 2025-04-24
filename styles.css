@@ -30,7 +30,7 @@ main {
 header {
     background: #006400;
     color: white;
-    padding: 1.5rem 0;
+    padding: 1rem 0; /* Reduced padding */
     text-align: center;
 }
 
@@ -84,12 +84,10 @@ nav ul li a:hover {
 
 /* Header Image */
 .header-image {
-    width: 50%; /* Make the image smaller */
-    margin-top: 20px;
+    width: 50%; /* Keep the image size */
+    margin: 20px auto; /* Center the image */
     border-radius: 8px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 /* Buttons */
