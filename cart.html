@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <header class="cart-header">
         <h1>Your Shopping Cart</h1>
         <div id="cart-icon" class="cart-icon">
             <a href="cart.html">
@@ -16,16 +16,24 @@
             </a>
         </div>
     </header>
-    <nav>
+    <nav class="cart-nav">
         <a href="index.html" class="btn">Home</a>
         <a href="shop.html" class="btn">Back to Shop</a>
     </nav>
-    <main>
-        <div id="cart-items" class="cart-section"></div>
-        <div id="cart-total" class="cart-section"></div>
-        <button id="checkout" class="btn">Checkout</button>
+    <main class="cart-main">
+        <section id="cart-items" class="cart-section">
+            <h2>Items in Your Cart</h2>
+            <!-- Cart items will be dynamically loaded here -->
+        </section>
+        <section id="cart-total" class="cart-section">
+            <h2>Total</h2>
+            <!-- Cart total will be dynamically updated here -->
+        </section>
+        <div class="cart-actions">
+            <button id="checkout" class="btn">Proceed to Checkout</button>
+        </div>
     </main>
-    <footer>
+    <footer class="cart-footer">
         <p>&copy; 2023 Your Store. All rights reserved.</p>
     </footer>
     <script src="cart.js"></script>
