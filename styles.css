@@ -625,3 +625,38 @@ footer {
     top: -10px;
     right: -10px;
 }
+
+.map-section {
+    background: linear-gradient(135deg, #f0f8ff, #e6f7ff);
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.map-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.map-heading {
+    font-size: 2rem;
+    color: #004080;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.map-description {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.map-frame iframe {
+    border: 2px solid #004080;
+    border-radius: 8px;
+    width: 100%;
+    height: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
