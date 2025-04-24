@@ -341,7 +341,7 @@ footer {
 }
 
 .hero-services ul {
-    list-style: disc; /* Keep bullet points */
+    list-style: none; /* Remove bullet points */
     padding-left: 0; /* Remove default padding */
     text-align: center; /* Center-align the list container */
     margin: 20px auto; /* Center the list container */
@@ -350,7 +350,6 @@ footer {
 
 .hero-services ul li {
     margin-bottom: 10px; /* Add spacing between list items */
-    display: list-item; /* Ensure proper bullet point behavior */
     text-align: center; /* Center-align text within each item */
 }
 
