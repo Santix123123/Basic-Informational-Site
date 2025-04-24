@@ -309,7 +309,7 @@ footer {
 
 /* Combined Hero and Services Section */
 .hero-services {
-    text-align: center; /* Center-align the text */
+    text-align: center; /* Center-align all text */
     margin: 0 auto; /* Center the section horizontally */
     padding: 60px 20px; /* Add padding for spacing */
     background-color: #f9f9f9; /* Light background color */
@@ -340,15 +340,18 @@ footer {
 }
 
 .hero-services ul {
-    list-style: disc; /* Add bullet points */
-    padding-left: 40px; /* Align bullet points */
-    text-align: left; /* Align list items to the left */
+    list-style: disc; /* Keep bullet points */
+    padding-left: 0; /* Remove default padding */
+    text-align: center; /* Center-align the list */
     margin: 20px auto; /* Center the list container */
     max-width: 600px; /* Limit the width of the list */
 }
 
 .hero-services ul li {
     margin-bottom: 10px; /* Add spacing between list items */
+    display: inline-block; /* Make list items inline */
+    text-align: center; /* Center-align text within each item */
+    width: auto; /* Ensure items don't span the full width */
 }
 
 .hero-services a.btn {
