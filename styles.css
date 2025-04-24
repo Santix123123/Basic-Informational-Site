@@ -189,6 +189,16 @@ footer {
     margin-top: 50px; /* Add extra spacing above the first product card */
 }
 
+/* Adjust margin-top for the second product card */
+.product-grid .product-card:nth-child(2) {
+    margin-top: 30px; /* Add extra spacing above the second product card */
+}
+
+/* Adjust margin-top for the third product card */
+.product-grid .product-card:nth-child(3) {
+    margin-top: 20px; /* Add extra spacing above the third product card */
+}
+
 /* Contact Page */
 .contact-info p {
     font-weight: bold;
