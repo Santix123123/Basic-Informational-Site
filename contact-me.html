@@ -8,77 +8,64 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="header-modern">
-        <div class="container">
-            <h1>Contact Us</h1>
-            <nav>
-                <ul class="nav-modern">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact-me.html" class="active">Contact</a></li>
-                    <li><a href="shop.html">Shop</a></li>
-                </ul>
-            </nav>
-        </div>
-        <img src="images/contact.jpg" alt="Contact Us" class="header-image-modern">
+    <header>
+        <h2>Contact Us</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact-me.html">Contact</a></li>
+                <li><a href="shop.html">Shop</a></li>
+            </ul>
+        </nav>
+        <img src="images/contact.jpg" alt="Contact Us" class="header-image">
     </header>
-    <main class="main-modern">
+    <main>
         <!-- Contact Information Section -->
-        <section class="contact-info-modern">
-            <div class="container">
-                <h2>Contact Information</h2>
-                <p>Email: <a href="mailto:lorenzo.santigolf@gmail.com">lorenzo.santigolf@gmail.com</a></p>
-                <p>Phone: <a href="tel:+393925217813">(+39) 3925217813</a></p>
-                <p>Address: Via Golfista 123, Rome, Italy</p>
-            </div>
+        <section>
+            <h2>Contact Information</h2>
+            <p>Email: <a href="mailto:lorenzo.santigolf@gmail.com">lorenzo.santigolf@gmail.com</a></p>
+            <p>Phone: <a href="tel:+393925217813">(+39) 3925217813</a></p>
+            <p>Address: Via Golfista 123, Rome, Italy</p>
         </section>
 
         <!-- Contact Form Section -->
-        <section class="contact-form-modern">
-            <div class="container">
-                <h2>Send Us a Message</h2>
-                <form action="submit-form.php" method="POST" class="form-modern">
-                    <div class="form-group">
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" placeholder="Your Email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message:</label>
-                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
-                    </div>
-                    <button type="submit" class="btn-modern">Submit</button>
-                </form>
-            </div>
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="submit-form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+                <button type="submit" class="btn">Submit</button>
+            </form>
         </section>
 
         <!-- Map Section -->
-        <section class="map-modern">
-            <div class="container">
-                <h2>Visit Our Store</h2>
-                <p>We'd love to see you in person! Here's where you can find us:</p>
-                <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2412.123456789!2d12.4923456!3d41.8901234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x123456789abcdef%3A0xabcdef123456789!2sMulligan%20Golf%20Store!5e0!3m2!1sen!2sit!4v1610000000000!5m2!1sen!2sit" 
-                    width="100%" 
-                    height="300" 
-                    style="border:0;" 
-                    allowfullscreen="" 
-                    loading="lazy">
-                </iframe>
-            </div>
+        <section class="map">
+            <h2>Visit Our Store</h2>
+            <p>We'd love to see you in person! Here's where you can find us:</p>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2412.123456789!2d12.4923456!3d41.8901234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x123456789abcdef%3A0xabcdef123456789!2sMulligan%20Golf%20Store!5e0!3m2!1sen!2sit!4v1610000000000!5m2!1sen!2sit" 
+                width="100%" 
+                height="300" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
         </section>
     </main>
-    <footer class="footer-modern">
-        <div class="container">
-            <p>&copy; 2025 Mulligan Golf Store. All rights reserved.</p>
-            <div class="social-links-modern">
-                <a href="#" aria-label="Facebook"><img src="images/facebook-icon.png" alt="Facebook"></a>
-                <a href="#" aria-label="Whatsapp"><img src="images/whatsapp-icon.png" alt="Whatsapp"></a>
-                <a href="#" aria-label="Instagram"><img src="images/instagram-icon.png" alt="Instagram"></a>
-            </div>
+    <footer>
+        <p>&copy; 2025 Mulligan Golf Store. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#" aria-label="Facebook"><img src="images/facebook-icon.png" alt="Facebook"></a>
+            <a href="#" aria-label="Whatsapp"><img src="images/whatsapp-icon.png" alt="Whatsapp"></a>
+            <a href="#" aria-label="Instagram"><img src="images/instagram-icon.png" alt="Instagram"></a>
         </div>
     </footer>
 </body>
