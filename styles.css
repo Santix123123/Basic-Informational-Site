@@ -30,7 +30,7 @@ main {
 header {
     background: #006400;
     color: white;
-    padding: 1rem 0; /* Reduced padding */
+    padding: 1.5rem 0;
     text-align: center;
 }
 
@@ -84,139 +84,11 @@ nav ul li a:hover {
 
 /* Header Image */
 .header-image {
-    width: 50%; /* Keep the image size */
-    margin: 20px auto; /* Center the image */
+    width: 50%; /* Make the image smaller */
+    margin-top: 20px;
     border-radius: 8px;
     display: block;
-}
-
-/* Buttons */
-button, .btn {
-    display: inline-block;
-    background: #006400;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    font-size: 1.2rem;
-    border-radius: 5px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: background 0.3s, transform 0.2s;
-}
-
-button:hover, .btn:hover {
-    background: #004d00;
-    transform: translateY(-2px);
-}
-
-button:active, .btn:active {
-    transform: translateY(0);
-}
-
-/* Footer */
-footer {
-    text-align: center;
-    padding: 1.5rem;
-    background: #006400;
-    color: white;
-    font-size: 1rem;
-    margin-top: auto;
-}
-
-/* Product Page */
-.product-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    margin-top: 30px;
-}
-
-.product-card {
-    background: #fff;
-    padding: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    text-align: center;
-}
-
-.product-card img {
-    max-width: 100%;
-    border-radius: 8px;
-}
-
-.product-card h3 {
-    margin-top: 10px;
-    font-size: 1.4rem;
-    color: #006400;
-}
-
-.product-card p {
-    font-size: 1rem;
-    color: #555;
-}
-
-/* Contact Page */
-.contact-info p {
-    font-weight: bold;
-    font-size: 1.2rem;
-}
-
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    margin-top: 20px;
-}
-
-.contact-form input,
-.contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 1rem;
-}
-
-.contact-form button {
-    background: #006400;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    font-size: 1.2rem;
-    cursor: pointer;
-    transition: background 0.3s;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-contact-form button:hover {
-    background: #004d00;
-    transform: translateY(-2px);
-}
-
-contact-form button:active {
-    transform: translateY(0);
-}
-
-/* 404 Page */
-.error-page {
-    text-align: center;
-    padding: 60px 20px;
-}
-
-.error-page h2 {
-    color: red;
-    font-size: 2rem;
-}
-
-.error-page a {
-    display: inline-block;
-    margin-top: 20px;
-    font-size: 1.2rem;
-    color: #006400;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.error-page a:hover {
+    margin-left: auto;     margin-right: auto; }st/* Buttons */obutton, .btn {4    display: inline-block;i    background: #006400;0    color: white;o    padding: 10px 20px;r    border: none;5    font-size: 1.2rem;.    border-radius: 5px;t    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);.    cursor: pointer;s    transition: background 0.3s, transform 0.2s;;}edbutton:hover, .btn:hover {p    background: #004d00;)    transform: translateY(-2px);;}v(button:active, .btn:active {)    transform: translateY(0);;}re/* Footer */tfooter {r    text-align: center;4    padding: 1.5rem;i    background: #006400;r    color: white;u    font-size: 1rem;o    margin-top: auto;;}ei/* Product Page */r.product-grid {r    display: grid;0    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));0    gap: 20px;x    margin-top: 30px;;}rf.product-card {5    background: #fff;.    padding: 15px;8    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);t    border-radius: 8px;r    text-align: center;;}m0.product-card img {8    max-width: 100%;x    border-radius: 8px;;}h0.product-card h3 {r    margin-top: 10px;4    font-size: 1.4rem;0    color: #006400;;} r.product-card p {5    font-size: 1rem;5    color: #555;;}e /* Contact Page */o.contact-info p {r    font-weight: bold;m    font-size: 1.2rem;;}rl.contact-form {u    display: flex;5    flex-direction: column;0    gap: 15px;x    margin-top: 20px;;}pe.contact-form input,0.contact-form textarea {0    width: 100%;c    padding: 10px;5    border: 1px solid #ccc;r    border-radius: 5px;m    font-size: 1rem;;}o4.contact-form button {i    background: #006400;5    color: white;o    padding: 10px 15px;r    border: none;t    font-size: 1.2rem;.    cursor: pointer;.    transition: background 0.3s;)    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);;}edcontact-form button:hover {p    background: #004d00;)    transform: translateY(-2px);;}v(contact-form button:active {)    transform: translateY(0);;}eg/* 404 Page */t.error-page {0    text-align: center;x    padding: 60px 20px;;}hr.error-page h2 {r    color: red;m    font-size: 2rem;;} o.error-page a {0    display: inline-block;r    margin-top: 20px;4    font-size: 1.2rem;o    color: #006400;o    text-decoration: none;d    font-weight: bold;;}ei.error-page a:hover {
     text-decoration: underline;
+}e;
 }
