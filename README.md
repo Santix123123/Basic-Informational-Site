@@ -4,7 +4,7 @@ Welcome to the **Mulligan Golf Store** website! This project is a professional i
 
 ---
 
-## 📸 Screenshots
+## 📸 Screenshots (New screenshots not uploaded yet).
 
 ### Home Page
 ![Home Page Screenshot](images/Screenshots/Screenshot_2025-04-03_23-55-29.png)
