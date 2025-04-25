@@ -737,12 +737,12 @@ body.signup-page {
 .signup-section {
     background: white;
     color: #333;
-    max-width: 400px;
+    max-width: 500px; /* Increase the width */
     width: 100%;
-    padding: 30px;
+    padding: 40px; /* Add more padding */
     border-radius: 10px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-    text-align: center;
+    text-align: left; /* Align content to the left */
 }
 
 .signup-section h2 {
@@ -772,9 +772,10 @@ body.signup-page {
 }
 
 .signup-actions {
-    margin-top: 20px;
+    margin-top: 30px; /* Add more spacing above the buttons */
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* Center-align the buttons */
+    gap: 20px; /* Add spacing between buttons */
 }
 
 .signup-actions a {
@@ -786,7 +787,9 @@ body.signup-page {
     color: #006400;
     font-weight: bold;
     text-decoration: none;
-    display: inline-block;
+    display: block; /* Make buttons stack vertically */
+    width: 100%; /* Full width for better alignment */
+    text-align: center; /* Center-align text inside buttons */
     padding: 10px 20px;
     border-radius: 5px;
     transition: background 0.3s, transform 0.2s;
