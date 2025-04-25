@@ -13,8 +13,8 @@
     </header>
     <main>
         <section class="login-section">
-            <h2>Welcome Back!</h2>
-            <form id="login-form">class="form-container">
+            <h2>Login:</h2>
+            <form id="login-form">
                 <label for="username">Username:</label>
                 <input type="text" id="username" name="username" placeholder="Enter your username" required>
                 
@@ -29,28 +29,29 @@
         <p>&copy; 2025 Mulligan Golf Store. All rights reserved.</p>
     </footer>tion>
     <script>
-        document.getElementById('login-form').addEventListener('submit', (event) => {
-            event.preventDefault();f Store. All rights reserved.</p>
-            const username = document.getElementById('username').value;
-            const password = document.getElementById('password').value;
-        document.getElementById('login-form').addEventListener('submit', (event) => {
-            // Validate against registered credentials
-            const registeredUsername = localStorage.getItem('registeredUsername');value;
-            const registeredPassword = localStorage.getItem('registeredPassword');').value;
+    document.getElementById('login-form').addEventListener('submit', (event) => {
+        event.preventDefault();
+        const username = document.getElementById('username').value;
+        const password = document.getElementById('password').value;
 
-            if (username === registeredUsername && password === registeredPassword) {on)
-                localStorage.setItem('authenticated', 'true');name === 'user' && password === 'password') {
-                alert('Login successful!');true');
-                window.location.href = 'shop.html';   alert('Login successful!');
-            } else {     window.location.href = 'shop.html'; // Redirect to shop.html after login
-                alert('Invalid username or password.'); else {
-            }         alert('Invalid username or password.');
-        });     }
-    </script>        });
+        // Validate against registered credentials
+        const registeredUsername = localStorage.getItem('registeredUsername');
+        const registeredPassword = localStorage.getItem('registeredPassword');
 
+        if (username === registeredUsername && password === registeredPassword) {
+            localStorage.setItem('authenticated', 'true');
+            alert('Login successful!');
+            window.location.href = 'shop.html'; // Redirect to shop.html after login
+        } else {
+            alert('Invalid username or password.');
+        }
+    });
 
 
-</html></body>    </script>
+
+    </script>
+</body>
+</html>
     <style>
         .login-section {
             max-width: 400px;
