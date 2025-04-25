@@ -7,19 +7,17 @@
     <title>Login - Mulligan Golf Store</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        .top-buttons {
+        .header-buttons {
             display: flex;
             justify-content: space-between;
-            padding: 10px 20px;
-            position: absolute;
-            top: 0;
-            width: 100%;
-            box-sizing: border-box;
+            align-items: center;
+            position: relative;
+            padding: 0 20px;
         }
 
-        .top-buttons .btn {
-            background: #006400;
-            color: white;
+        .header-buttons .btn {
+            background: #FFD700; /* Golden yellow */
+            color: #006400; /* Dark green text */
             text-decoration: none;
             padding: 10px 20px;
             border-radius: 5px;
@@ -27,23 +25,83 @@
             transition: background 0.3s, transform 0.2s;
         }
 
-        .top-buttons .btn:hover {
-            background: #004d00;
+        .header-buttons .btn:hover {
+            background: #e6c200; /* Slightly darker yellow */
+            transform: translateY(-2px);
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background: #006400;
+            color: white;
+        }
+
+        header h2 {
+            flex: 1;
+            text-align: center;
+            margin: 0;
+        }
+
+        .login-section {
+            max-width: 400px;
+            margin: 80px auto;
+            padding: 30px;
+            background: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .login-section h2 {
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+            color: #006400;
+        }
+
+        .login-section form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .login-section input {
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .login-section button {
+            background: #FFD700;
+            color: #006400;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.2s;
+        }
+
+        .login-section button:hover {
+            background: #e6c200;
             transform: translateY(-2px);
         }
     </style>
 </head>
 <body>
-    <div class="top-buttons">
-        <a href="index.html" class="btn">Back to Home</a>
-        <a href="signup.html" class="btn">Sign Up</a>
-    </div>
     <header>
+        <div class="header-buttons">
+            <a href="index.html" class="btn">Back to Home</a>
+            <a href="signup.html" class="btn">Sign Up</a>
+        </div>
         <h2>Login</h2>
     </header>
     <main>
         <section class="login-section">
-            <h2>Login:</h2>
+            <h2>Login to Your Account</h2>
             <form id="login-form">
                 <label for="username">Username:</label>
                 <input type="text" id="username" name="username" placeholder="Enter your username" required>
@@ -77,50 +135,5 @@
             }
         });
     </script>
-</body>
-</html>
-    <style>
-        .login-section {
-            max-width: 400px;
-            margin: 50px auto;
-            padding: 20px;
-            background: #f9f9f9;
-            border-radius: 8px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-
-        .form-container {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-        }
-
-        .form-container input {
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            font-size: 1rem;
-        }
-
-        .login-actions {
-            margin-top: 20px;
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .btn.secondary {
-            background: #006400;
-            color: white;
-            text-decoration: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            transition: background 0.3s;
-        }
-
-        .btn.secondary:hover {
-            background: #004d00;
-        }
-    </style>
 </body>
 </html>
