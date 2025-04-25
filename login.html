@@ -11,8 +11,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            position: relative;
-            padding: 0 20px;
+            width: 100%;
         }
 
         .header-buttons .btn {
@@ -40,9 +39,10 @@
         }
 
         header h2 {
-            flex: 1;
-            text-align: center;
             margin: 0;
+            font-size: 1.8rem;
+            text-align: center;
+            flex-grow: 1;
         }
 
         .login-section {
@@ -93,11 +93,9 @@
 </head>
 <body>
     <header>
-        <div class="header-buttons">
-            <a href="index.html" class="btn">Back to Home</a>
-            <a href="signup.html" class="btn">Sign Up</a>
-        </div>
+        <a href="index.html" class="btn">Back to Home</a>
         <h2>Login</h2>
+        <a href="signup.html" class="btn">Sign Up</a>
     </header>
     <main>
         <section class="login-section">
