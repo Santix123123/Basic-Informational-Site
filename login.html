@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Login to access the Mulligan Golf Store shop.">
+    <title>Login - Mulligan Golf Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h2>Login</h2>
+    </header>
+    <main>
+        <section class="login-section">
+            <h2>Welcome Back!</h2>
+            <form id="login-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                
+                <button type="submit" class="btn">Login</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Mulligan Golf Store. All rights reserved.</p>
+    </footer>
+    <script>
+        document.getElementById('login-form').addEventListener('submit', (event) => {
+            event.preventDefault();
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            // Simple authentication logic (replace with real authentication in production)
+            if (username === 'user' && password === 'password') {
+                localStorage.setItem('authenticated', 'true');
+                alert('Login successful!');
+                window.location.href = 'shop.html';
+            } else {
+                alert('Invalid username or password.');
+            }
+        });
+    </script>
+</body>
+</html>

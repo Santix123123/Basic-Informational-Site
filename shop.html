@@ -8,6 +8,13 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <script>
+        // Redirect to login page if not authenticated
+        if (!localStorage.getItem('authenticated')) {
+            alert('You must log in to access the shop.');
+            window.location.href = 'login.html';
+        }
+    </script>
     <header>
         <h1>Mulligan Golf Store</h1>
         <nav>
