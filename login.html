@@ -14,7 +14,7 @@
     <main>
         <section class="login-section">
             <h2>Welcome Back!</h2>
-            <form id="login-form">
+            <form id="login-form">class="form-container">
                 <label for="username">Username:</label>
                 <input type="text" id="username" name="username" placeholder="Enter your username" required>
                 
@@ -23,26 +23,76 @@
                 
                 <button type="submit" class="btn">Login</button>
             </form>
-        </section>
-    </main>
-    <footer>
+        </section>lass="login-actions">
+    </main>     <a href="index.html" class="btn secondary">Back to Home</a>
+    <footer>    <a href="signup.html" class="btn secondary">Sign Up</a>
         <p>&copy; 2025 Mulligan Golf Store. All rights reserved.</p>
-    </footer>
+    </footer>tion>
     <script>
         document.getElementById('login-form').addEventListener('submit', (event) => {
-            event.preventDefault();
+            event.preventDefault();f Store. All rights reserved.</p>
             const username = document.getElementById('username').value;
             const password = document.getElementById('password').value;
+        document.getElementById('login-form').addEventListener('submit', (event) => {
+            // Validate against registered credentials
+            const registeredUsername = localStorage.getItem('registeredUsername');value;
+            const registeredPassword = localStorage.getItem('registeredPassword');').value;
 
-            // Simple authentication logic (replace with real authentication in production)
-            if (username === 'user' && password === 'password') {
-                localStorage.setItem('authenticated', 'true');
-                alert('Login successful!');
-                window.location.href = 'shop.html'; // Redirect to shop.html after login
-            } else {
-                alert('Invalid username or password.');
-            }
-        });
-    </script>
+            if (username === registeredUsername && password === registeredPassword) {on)
+                localStorage.setItem('authenticated', 'true');name === 'user' && password === 'password') {
+                alert('Login successful!');true');
+                window.location.href = 'shop.html';   alert('Login successful!');
+            } else {     window.location.href = 'shop.html'; // Redirect to shop.html after login
+                alert('Invalid username or password.'); else {
+            }         alert('Invalid username or password.');
+        });     }
+    </script>        });
+
+
+
+</html></body>    </script>
+    <style>
+        .login-section {
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .form-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .form-container input {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .login-actions {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .btn.secondary {
+            background: #006400;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .btn.secondary:hover {
+            background: #004d00;
+        }
+    </style>
 </body>
 </html>
