@@ -6,8 +6,38 @@
     <meta name="description" content="Login to access the Mulligan Golf Store shop.">
     <title>Login - Mulligan Golf Store</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .top-buttons {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .top-buttons .btn {
+            background: #006400;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1rem;
+            transition: background 0.3s, transform 0.2s;
+        }
+
+        .top-buttons .btn:hover {
+            background: #004d00;
+            transform: translateY(-2px);
+        }
+    </style>
 </head>
 <body>
+    <div class="top-buttons">
+        <a href="index.html" class="btn">Back to Home</a>
+        <a href="signup.html" class="btn">Sign Up</a>
+    </div>
     <header>
         <h2>Login</h2>
     </header>
@@ -24,31 +54,28 @@
                 <button type="submit" class="btn">Login</button>
             </form>
         </section>
-    </main>     <a href="index.html" class="btn secondary">Back to Home</a>
-    <footer>    <a href="signup.html" class="btn secondary">Sign Up</a>
+    </main>
+    <footer>
         <p>&copy; 2025 Mulligan Golf Store. All rights reserved.</p>
     </footer>
     <script>
-    document.getElementById('login-form').addEventListener('submit', (event) => {
-        event.preventDefault();
-        const username = document.getElementById('username').value;
-        const password = document.getElementById('password').value;
+        document.getElementById('login-form').addEventListener('submit', (event) => {
+            event.preventDefault();
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
 
-        // Validate against registered credentials
-        const registeredUsername = localStorage.getItem('registeredUsername');
-        const registeredPassword = localStorage.getItem('registeredPassword');
+            // Validate against registered credentials
+            const registeredUsername = localStorage.getItem('registeredUsername');
+            const registeredPassword = localStorage.getItem('registeredPassword');
 
-        if (username === registeredUsername && password === registeredPassword) {
-            localStorage.setItem('authenticated', 'true');
-            alert('Login successful!');
-            window.location.href = 'shop.html'; // Redirect to shop.html after login
-        } else {
-            alert('Invalid username or password.');
-        }
-    });
-
-
-
+            if (username === registeredUsername && password === registeredPassword) {
+                localStorage.setItem('authenticated', 'true');
+                alert('Login successful!');
+                window.location.href = 'shop.html'; // Redirect to shop.html after login
+            } else {
+                alert('Invalid username or password.');
+            }
+        });
     </script>
 </body>
 </html>
