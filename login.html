@@ -38,7 +38,7 @@
             if (username === 'user' && password === 'password') {
                 localStorage.setItem('authenticated', 'true');
                 alert('Login successful!');
-                window.location.href = 'shop.html';
+                window.location.href = 'shop.html'; // Redirect to shop.html after login
             } else {
                 alert('Invalid username or password.');
             }
