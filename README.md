@@ -4,6 +4,12 @@ Welcome to the **Mulligan Golf Store** website! This project is a professional i
 
 ---
 
+## 🌐 Live Demo
+
+Check out the live demo here: [Mulligan Golf Store](https://basic-informational-site-mu.vercel.app/https://basic-informational-site-mu.vercel.app/)
+
+---
+
 ## 📸 Screenshots (New screenshots added)
 
 ### Home Page
@@ -114,9 +120,4 @@ Welcome to the **Mulligan Golf Store** website! This project is a professional i
 - Enhanced skills in creating professional and user-friendly websites.
 - Developed a deeper understanding of client-side storage and user authentication.
 
----
-
-## 🌐 Live Demo
-
-Check out the live demo here: [Mulligan Golf Store](https://b12d655d-274d-4944-80a8-a9982517d8cc-00-2qgv8861tjzqz.worf.replit.dev/)
-````
+--
