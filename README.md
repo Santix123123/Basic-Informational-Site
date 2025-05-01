@@ -10,22 +10,22 @@ Welcome to the **Mulligan Golf Store** website! This project is a professional i
 ![Home Page Screenshot](images/Screenshots/Screenshot_2025-04-03_23-55-29.png)
 
 ### About Page
-![About Page Screenshot](images/Screenshots/Screenshot_2025-04-03_23-55-49.png)
+![About Page Screenshot](images/Screenshots/Screenshot_2025-04-03_23-57-49.png)
 
 ### Contact Page
-![Contact Page Screenshot](images/Screenshots/Screenshot_2025-04-03_23-55-43.png)
+![Contact Page Screenshot](images/Screenshots/Screenshot_2025-04-03_23-58-43.png)
 
 ### Login Page
-![Login Page Screenshot](images/Screenshots/Screenshot_2025-04-03_23-55-52.png)
+![Login Page Screenshot](images/Screenshots/Screenshot_2025-04-03_05-40-52.png)
 
 ### Sign Me Up Page
-![Sign Me Up Page Screenshot](images/Screenshots/Screenshot_2025-04-03_23-55-20.png)
+![Sign Me Up Page Screenshot](images/Screenshots/Screenshot_2025-04-03_05-41-20.png)
 
 ### Shop Page
-![Shop Page Screenshot](images/Screenshots/Screenshot_2025-04-03_23-55-40.png)
+![Shop Page Screenshot](images/Screenshots/Screenshot_2025-04-03_05-42-40.png)
 
 ### Shopping Cart Page
-![Shopping Cart Page Screenshot](images/Screenshots/Screenshot_2025-04-03_23-55-48.png)
+![Shopping Cart Page Screenshot](images/Screenshots/Screenshot_2025-04-03_05-43-48.png)
 
 ---
 
