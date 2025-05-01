@@ -4,16 +4,28 @@ Welcome to the **Mulligan Golf Store** website! This project is a professional i
 
 ---
 
-## 📸 Screenshots (New screenshots not uploaded yet).
+## 📸 Screenshots (New screenshots added)
 
 ### Home Page
-![Home Page Screenshot](images/Screenshots/Screenshot_2025-04-03_23-55-29.png)
+![Home Page Screenshot](images/Screenshots/home-page.png)
 
 ### About Page
-![About Page Screenshot](images/Screenshots/Screenshot_2025-04-03_23-57-49.png)
+![About Page Screenshot](images/Screenshots/about-page.png)
 
 ### Contact Page
-![Contact Page Screenshot](images/Screenshots/Screenshot_2025-04-03_23-58-43.png)
+![Contact Page Screenshot](images/Screenshots/contact-page.png)
+
+### Login Page
+![Login Page Screenshot](images/Screenshots/login-page.png)
+
+### Sign Me Up Page
+![Sign Me Up Page Screenshot](images/Screenshots/sign-me-up-page.png)
+
+### Shop Page
+![Shop Page Screenshot](images/Screenshots/shop-page.png)
+
+### Shopping Cart Page
+![Shopping Cart Page Screenshot](images/Screenshots/shopping-cart-page.png)
 
 ---
 
@@ -107,3 +119,4 @@ Welcome to the **Mulligan Golf Store** website! This project is a professional i
 ## 🌐 Live Demo
 
 Check out the live demo here: [Mulligan Golf Store](https://b12d655d-274d-4944-80a8-a9982517d8cc-00-2qgv8861tjzqz.worf.replit.dev/)
+````
