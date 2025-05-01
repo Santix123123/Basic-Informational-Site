@@ -6,7 +6,7 @@ Welcome to the **Mulligan Golf Store** website! This project is a professional i
 
 ## 🌐 Live Demo
 
-Check out the live demo here: [Mulligan Golf Store](https://basic-informational-site-mu.vercel.app/https://basic-informational-site-mu.vercel.app/)
+Check out the live demo here: [Mulligan Golf Store](https://basic-informational-site-mu.vercel.app/)
 
 ---
 
