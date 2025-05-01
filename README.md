@@ -120,4 +120,4 @@ Check out the live demo here: [Mulligan Golf Store](https://basic-informational-
 - Enhanced skills in creating professional and user-friendly websites.
 - Developed a deeper understanding of client-side storage and user authentication.
 
---
+---
